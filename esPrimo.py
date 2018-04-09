@@ -5,3 +5,6 @@ def es_primo(n):
     while i<=n:
         if n%1 == 0:
             count = count + 1
+        if count > 2:
+            primo = False
+            break
