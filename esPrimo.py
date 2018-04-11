@@ -8,5 +8,4 @@ def es_primo(n):
         if count > 2:
             primo = False
             break
-            i = i + 1
-    return primo
+            i = i +
